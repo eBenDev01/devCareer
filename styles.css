@@ -1,0 +1,108 @@
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    height: 100vh;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: coral;
+    color: white;
+}
+
+     /* tablet screen  */
+@media screen and (max-width: 600px) {
+
+    body{
+        margin:0;
+        padding:0;
+    }
+
+   .container{
+    height: 100vh;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   }
+
+   table {
+        width: 100px;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+   }
+
+   tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: coral;
+    color: white;
+}
+
+}
+
+    /* mobile screen  */
+@media screen and (max-width: 400px) {
+
+    body{
+        margin:0;
+        padding:0;
+    }
+
+   .container{
+    height: 100vh;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   }
+
+   table {
+        width: 100px;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+   }
+
+   tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: coral;
+    color: white;
+}
+
+}
+    
